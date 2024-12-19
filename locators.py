@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 
 class Locators:
-    SAUCE_PICTURE = (By.XPATH, '//img[@src="https://code.s3.yandex.net/react/code/sauce-03.png"]') #картинка из раздела Соусы, из второго ряда
-    FILLING_PICTURE = (By.XPATH, '//img[@src="https://code.s3.yandex.net/react/code/meat-03.png"]') #картинка из раздела Начинки, из второго ряда
-    BULKA_PICTURE = (By.XPATH, '//img[@src="https://code.s3.yandex.net/react/code/bun-02.png"]')  #картинка из раздела Булки
+    SAUCE_PICTURE = (By.XPATH, '//img[@alt="Соус традиционный галактический"]') #картинка из раздела Соусы, из второго ряда
+    FILLING_PICTURE = (By.XPATH, '//img[@alt="Филе Люминесцентного тетраодонтимформа"]') #картинка из раздела Начинки, из второго ряда
+    BULKA_PICTURE = (By.XPATH, '//img[@alt="Краторная булка N-200i"]')  #картинка из раздела Булки
     REG_NAME_FIELD = (By.XPATH, "//label[contains(text(),'Имя')]/following-sibling::input")
     REG_EMAIL_FIELD = (By.XPATH, "//label[contains(text(),'Email')]/following-sibling::input")
     REG_PASSWORD_FIELD = (By.XPATH, "//label[contains(text(),'Пароль')]/following-sibling::input")
